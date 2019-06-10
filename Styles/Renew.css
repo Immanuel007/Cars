@@ -1,0 +1,72 @@
+body{
+	background-image: url(../Images/Carsren.jpg);
+	margin: 0;
+	padding:0;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.Renbox{
+	width:320px; 
+	height: 450px;
+	background-color: #000;
+	color: yellow;
+	top: 30%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50px);
+	box-sizing: border-box;
+	padding: 50px 30px;
+}
+.Avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 110px;
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.renbox p{
+	margin: 0;
+	padding: : 0;
+	font-weight: bold;
+}
+.Renbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.Renbox input[type="text"], input[type="New Password"], input[type="email"], input[type="Confirm New Password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.Renbox input[type="Advance"]{
+	border: none;
+	outline: none;
+	text-align: center;
+	height: 40px;
+	background:#fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.Renbox input[type="Advance"]:hover{
+	cursor: pointer;
+	background:violet;
+	color: #000;
+}
+.Renbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
